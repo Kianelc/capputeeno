@@ -1,45 +1,39 @@
-# Capputeeno - Catálogo de Loja
+## Frontend (Client)
 
-Bem-vindo ao projeto Capputeeno! Este repositório contém o código do lado do cliente para o Capputeeno, um catálogo de loja online. Este documento o guiará pelo processo de configuração e execução do projeto em sua máquina local.
+Bem-vindo à documentação do frontend (client) do projeto Capputeeno! Aqui, você encontrará informações detalhadas sobre como iniciar e executar o frontend do projeto em sua máquina local.
 
-## Pré-requisitos
+### Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes softwares instalados em seu sistema:
 
 - [Node.js](https://nodejs.org/) (versão recomendada: 16.x ou superior)
 - [npm](https://www.npmjs.com/) (vem com o Node.js) ou [Yarn](https://yarnpkg.com/) (recomendado)
 
-## Instalação
+### Instalação das Dependências
 
-1. Clone este repositório em sua máquina local:
-
-   ```bash
-   git clone https://github.com/Kianelc/capputeeno.git
-   ```
-
-2. Navegue até o diretório do projeto:
+1. Navegue até o diretório do cliente:
 
    ```bash
-   cd capputeeno
+   cd client
    ```
 
-3. Instale as dependências do projeto usando o npm:
+2. Instale as dependências do cliente usando o npm:
 
    ```bash
    npm install
    ```
 
-   Ou se preferir usar o Yarn:
+   Ou usando o Yarn:
 
    ```bash
    yarn
    ```
 
-## Scripts Disponíveis
+### Scripts Disponíveis
 
-No diretório do projeto, você pode executar os seguintes scripts:
+No diretório do cliente, você pode executar os seguintes scripts para gerenciar o desenvolvimento e a construção do projeto:
 
-- `dev`: Inicie o servidor de desenvolvimento.
+- `dev`: Inicia o servidor de desenvolvimento.
 
    ```bash
    npm run dev
@@ -51,9 +45,9 @@ No diretório do projeto, você pode executar os seguintes scripts:
    yarn dev
    ```
 
-   Isso iniciará o servidor de desenvolvimento em [http://localhost:3000](http://localhost:3000).
+   Isso inicia o servidor de desenvolvimento em [http://localhost:3000](http://localhost:3000).
 
-- `build`: Construa o aplicativo pronto para produção.
+- `build`: Constrói o aplicativo pronto para produção.
 
    ```bash
    npm run build
@@ -65,9 +59,9 @@ No diretório do projeto, você pode executar os seguintes scripts:
    yarn build
    ```
 
-   Isso criará uma construção otimizada do aplicativo na pasta `.next`.
+   Isso cria uma construção otimizada do aplicativo na pasta `.next`.
 
-- `start`: Inicie o servidor de produção após a construção do aplicativo.
+- `start`: Inicia o servidor de produção após a construção do aplicativo.
 
    ```bash
    npm run start
@@ -79,9 +73,9 @@ No diretório do projeto, você pode executar os seguintes scripts:
    yarn start
    ```
 
-   Isso iniciará o servidor de produção em [http://localhost:3000](http://localhost:3000).
+   Isso inicia o servidor de produção em [http://localhost:3000](http://localhost:3000).
 
-- `lint`: Faça a verificação de código usando o ESLint.
+- `lint`: Verifica o código usando o ESLint.
 
    ```bash
    npm run lint
@@ -93,12 +87,6 @@ No diretório do projeto, você pode executar os seguintes scripts:
    yarn lint
    ```
 
-   Isso verificará seu código quanto a problemas de linting de acordo com as regras configuradas.
+   Isso verifica seu código quanto a problemas de linting de acordo com as regras configuradas.
 
-## Notas Importantes
-
-- Este projeto utiliza o Next.js, que oferece renderização do lado do servidor e outras otimizações de desempenho prontas para uso.
-- O ESLint está configurado com a configuração recomendada do Next.js para qualidade do código.
-- Certifique-se de manter suas dependências atualizadas por motivos de segurança e desempenho.
-
-Se você encontrar problemas ou tiver dúvidas, não hesite em pedir ajuda. 🌟
+Se tiver alguma dúvida ou encontrar problemas, não hesite em pedir ajuda. 🌟
