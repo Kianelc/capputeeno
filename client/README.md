@@ -1,34 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Capputeeno - Catálogo de Loja
 
-## Getting Started
+Bem-vindo ao projeto Capputeeno! Este repositório contém o código do lado do cliente para o Capputeeno, um catálogo de loja online. Este documento o guiará pelo processo de configuração e execução do projeto em sua máquina local.
 
-First, run the development server:
+## Pré-requisitos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Antes de começar, certifique-se de ter os seguintes softwares instalados em seu sistema:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) (versão recomendada: 16.x ou superior)
+- [npm](https://www.npmjs.com/) (vem com o Node.js) ou [Yarn](https://yarnpkg.com/) (recomendado)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalação
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone este repositório em sua máquina local:
 
-## Learn More
+   ```bash
+   git clone https://github.com/Kianelc/capputeeno.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navegue até o diretório do projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd capputeeno
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Instale as dependências do projeto usando o npm:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Ou se preferir usar o Yarn:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   yarn
+   ```
+
+## Scripts Disponíveis
+
+No diretório do projeto, você pode executar os seguintes scripts:
+
+- `dev`: Inicie o servidor de desenvolvimento.
+
+   ```bash
+   npm run dev
+   ```
+
+   Ou com o Yarn:
+
+   ```bash
+   yarn dev
+   ```
+
+   Isso iniciará o servidor de desenvolvimento em [http://localhost:3000](http://localhost:3000).
+
+- `build`: Construa o aplicativo pronto para produção.
+
+   ```bash
+   npm run build
+   ```
+
+   Ou com o Yarn:
+
+   ```bash
+   yarn build
+   ```
+
+   Isso criará uma construção otimizada do aplicativo na pasta `.next`.
+
+- `start`: Inicie o servidor de produção após a construção do aplicativo.
+
+   ```bash
+   npm run start
+   ```
+
+   Ou com o Yarn:
+
+   ```bash
+   yarn start
+   ```
+
+   Isso iniciará o servidor de produção em [http://localhost:3000](http://localhost:3000).
+
+- `lint`: Faça a verificação de código usando o ESLint.
+
+   ```bash
+   npm run lint
+   ```
+
+   Ou com o Yarn:
+
+   ```bash
+   yarn lint
+   ```
+
+   Isso verificará seu código quanto a problemas de linting de acordo com as regras configuradas.
+
+## Notas Importantes
+
+- Este projeto utiliza o Next.js, que oferece renderização do lado do servidor e outras otimizações de desempenho prontas para uso.
+- O ESLint está configurado com a configuração recomendada do Next.js para qualidade do código.
+- Certifique-se de manter suas dependências atualizadas por motivos de segurança e desempenho.
+
+Se você encontrar problemas ou tiver dúvidas, não hesite em pedir ajuda. 🌟
